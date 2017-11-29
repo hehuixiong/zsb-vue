@@ -1,0 +1,115 @@
+/*全局样式
+---------------------------------------------*/
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  color: #333;
+  font: 14px/1.5 Arial;
+  font-family: "微软雅黑";
+  background: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  box-sizing: border-box;
+}
+input,
+button,
+select,
+textarea,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "微软雅黑";
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #34ad2a;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ol,
+ul,
+li,
+dl,
+dd {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+i,
+em {
+  font-style: normal;
+}
+/* 版心 */
+.w {
+  width: 1256px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  border: none;
+  outline: none;
+}
+img {
+  display: block;
+  vertical-align: middle;
+}
+/*Clear Fix*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix {
+  display: block;
+}
+.clear {
+  clear: both;
+  font-size: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+.line5 {
+  clear: both;
+  font-size: 0px;
+  height: 5px;
+  overflow: hidden;
+}
+.line10 {
+  clear: both;
+  font-size: 0px;
+  height: 10px;
+  overflow: hidden;
+}
+.line15 {
+  clear: both;
+  font-size: 0px;
+  height: 15px;
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
